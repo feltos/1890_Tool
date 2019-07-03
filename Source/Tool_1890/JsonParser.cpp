@@ -16,11 +16,6 @@ AJsonParser::AJsonParser()
 void AJsonParser::BeginPlay()
 {
 	Super::BeginPlay();
-
-	for (int i = 0; i < 1; i++)
-	{
-		LoadJson();
-	}
 }
 
 void AJsonParser::LoadJson()
